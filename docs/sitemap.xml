@@ -2,10 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://yangjh-xbmu.github.io/hugonews/</loc>
+    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://yangjh-xbmu.github.io/hugonews/posts/</loc>
+    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://yangjh-xbmu.github.io/hugonews/tags/scene/</loc>
+    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+  </url><url>
+    <loc>https://yangjh-xbmu.github.io/hugonews/tags/</loc>
+    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+  </url><url>
+    <loc>https://yangjh-xbmu.github.io/hugonews/posts/1/</loc>
+    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+  </url><url>
+    <loc>https://yangjh-xbmu.github.io/hugonews/categories/</loc>
   </url>
 </urlset>

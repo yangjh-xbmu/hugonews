@@ -1,5 +1,5 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://yangjh-xbmu.github.io/hugonews/'
+languageCode = 'zh'
 publishDir = "docs"
 theme = 'ananke'
 title = 'My New Hugo Site'
