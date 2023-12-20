@@ -1,5 +1,7 @@
 baseURL = 'https://yangjh-xbmu.github.io/hugonews/'
+hasCJKLanguage = true
 languageCode = 'zh'
 publishDir = "docs"
+summaryLength = 30
 theme = 'ananke'
 title = 'My New Hugo Site'

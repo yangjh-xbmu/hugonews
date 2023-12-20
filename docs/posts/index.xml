@@ -13,21 +13,14 @@
       <link>https://yangjh-xbmu.github.io/hugonews/posts/%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%88%B0%E7%BD%91%E7%BB%9C/</link>
       <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://yangjh-xbmu.github.io/hugonews/posts/%E5%8F%91%E5%B8%83%E5%86%85%E5%AE%B9%E5%88%B0%E7%BD%91%E7%BB%9C/</guid>
-      <description>注册Github账号 参见Github官方文档
-新建Github仓库 要点：一定要将仓库设置为公开（public）
-将Github仓库克隆到本地 找到Github仓库地址，复制，然后在本地计算机的桌面上按右键，选择git bash here，启动git bash 执行git clone xxxxxxxx就是前面复制的Github仓库地址 合并之前创建的hugo项目和Github仓库 将之前创建的hugo项目中的所有文件和文件夹（除.git文件夾）复制到本地Github仓库中。 开启Github Pages服务 进入Github仓库的设置页面，选择pages，将来源设置为仓库，分支设置为main，目录设置为docs。 然后选择save，保存并启动设置。 配置合并后的hugo项目 打开hugo项目配置文件，如hugo.toml,增加两项设置：
-baseURL = &amp;#39;https://yangjh-xbmu.github.io/hugonews/&amp;#39; languageCode = &amp;#39;zh&amp;#39; publishDir = &amp;#34;docs&amp;#34; theme = &amp;#39;ananke&amp;#39; title = &amp;#39;My New Hugo Site&amp;#39; 新建发布脚本 在hugo项目的根目录中，创建名为push.sh的文件，内容如下：
-hugo git add . git commit -m &amp;#34;自动推送&amp;#34; git push 使用脚本发布本地仓库内容到Github远程仓库 在VS Code中，其中bash终端，执行如下命令：
-sh push.sh 该脚本将执行hugo建构程序，并将内容推送到Github仓库，之后Github会自行调用Actions，发布仓库内容中的docs目录到pages服务。</description>
+      <description>注册Github账号 参见Github官方文档 新建Github</description>
     </item>
     <item>
       <title>道德经</title>
       <link>https://yangjh-xbmu.github.io/hugonews/posts/1/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       <guid>https://yangjh-xbmu.github.io/hugonews/posts/1/</guid>
-      <description>道可道，非常道。名可名，非常名。無名天地之始；有名萬物之母。故常無欲，以觀其妙；常有欲，以觀其徼。此兩者，同出而異名，同謂之玄。玄之又玄，衆妙之門。
-天下皆知美之為美，斯惡已。皆知善之為善，斯不善已。故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。是以聖人處無為之事，行不言之教；萬物作焉而不辭，生而不有。為而不恃，功成而弗居。夫唯弗居，是以不去。
-道冲而用之或不盈，渊兮似万物之宗。挫其锐，解其纷，和其光，同其尘。湛兮似或存，吾不知谁之子，象帝之先。</description>
+      <description>道可道，非常道。名可名，非常名。無名天地之始；有名萬物之母。</description>
     </item>
   </channel>
 </rss>
