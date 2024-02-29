@@ -1,4 +1,5 @@
 baseURL = 'https://yangjh-xbmu.github.io/hugonews/'
+canonifyurls = true
 hasCJKLanguage = true
 languageCode = 'zh'
 publishDir = "docs"

@@ -16,6 +16,7 @@
     {{ else }}
       <meta name="robots" content="noindex, nofollow">
     {{ end }}
+    
 
     {{ partial "site-style.html" . }}
     {{ partial "site-scripts.html" . }}
@@ -41,7 +42,11 @@
     {{- template "_internal/opengraph.html" . -}}
     {{- template "_internal/schema.html" . -}}
     {{- template "_internal/twitter_cards.html" . -}}
-
+    {{ if .Params.soundcite }}
+    <link rel="stylesheet" href="https://cdn.knightlab.com/libs/soundcite/latest/css/player.css">
+    <script src="https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"></script>
+    {{ end }}
+    
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
@@ -55,5 +60,6 @@
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+
   </body>
 </html>
